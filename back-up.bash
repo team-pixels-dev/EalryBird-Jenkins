@@ -1,5 +1,5 @@
 #!/bin/bash
-DATE=$(date + "%Y-%m-%d")
+DATE=$(date +"%Y-%m-%d")
 JENKINS_HOME="/home/ec2-user/jenkins_home"
 BACKUP_DIR="/home/ec2-user/backup"
 CONTAINER_NAME="jenkins"
