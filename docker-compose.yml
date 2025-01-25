@@ -7,7 +7,7 @@ services:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - /home/ec2-user/jenkins_home:/var/jenkins_home
+      - /home/ec2-user/jenkins_home:/var/jenkins_home:rw
     restart: always
 volumes:
   jenkins_home:
